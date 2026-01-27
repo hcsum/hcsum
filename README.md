@@ -7,7 +7,5 @@ My go-to tech stacks are: Reactjs, Tanstack, Nextjs, Nodejs, Postgres.
 
 I quited my full-time job end of 2025, now I am hanging by a part-time job. Now that I have more free time, I want to do something more related to open-source, and learn something new, recently digging the source code of Svelte, and exploring what can I do with Three.js 
 
-Also I am working on [EverLand.cc](https://everland.cc), it is a pet project for me to explore AI image generation with open-weight LLM models. Would be good to have some real (paid) user for this project some day :>
-
 Feel free to reach out: sumtsui@gmail.com
 
