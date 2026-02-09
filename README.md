@@ -7,7 +7,7 @@ My go-to tech stacks are: Reactjs, Tanstack, Nextjs, Nodejs, Postgres. Recently 
 
 New year resolution of 2026, spend more time on Github and doing some opensource! 
 
-Currently looking for a new job.
+Currently looking for a remote job.
 
 Feel free to reach out: sumtsui@gmail.com
 
