@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<img align="center" src="https://github-readme-stats-eight-theta.vercel.app/api?username=hcsum&show_icons=true&theme=transparent&hide_title=true" alt="github stats" />
+<img align="center" src="https://komarev.com/ghpvc/?username=hcsum" alt="page view count" />
