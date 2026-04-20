@@ -1,4 +1,4 @@
-## Hi there 👋
+## 👋
 
 <!--
 **hcsum/hcsum** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,6 +14,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+My journey:
+Medical School -> Consumer Electronics Product Marketing (4 yrs) -> Web Developer (8 yrs) -> Poking around (now)
+
+Hope to meet some new friends and check out some cool projects.
+
+Say hi here: hi@hcxu.cc
 
 <img align="center" src="https://github-readme-stats-eight-theta.vercel.app/api?username=hcsum&show_icons=true&theme=transparent&hide_title=true" alt="github stats" />
 <img align="center" src="https://komarev.com/ghpvc/?username=hcsum" alt="page view count" />
