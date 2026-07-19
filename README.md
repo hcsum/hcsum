@@ -26,26 +26,26 @@ left PRs, issues, reviews, or comments.
 <!-- OSS_FOOTPRINTS_START -->
 - [`anomalyco/opencode`](https://github.com/anomalyco/opencode)  
   AI coding agents, terminal UX, plugin/runtime behavior  
-  Signals: PRs, issues, comments
+  Signals: 1 PR, 4 issues, 4 comments
 - [`mem0ai/mem0`](https://github.com/mem0ai/mem0)  
   agent memory, extraction quality, self-hosted infrastructure  
-  Signals: PRs, issues, comments
+  Signals: 1 PR, 2 issues, 1 comment
 - [`grinev/opencode-telegram-bot`](https://github.com/grinev/opencode-telegram-bot)  
   chat-based coding workflows and permission UX  
-  Signals: PRs, issues
+  Signals: 1 PR, 1 issue
 - [`vendurehq/vendure`](https://github.com/vendurehq/vendure)  
   commerce admin UX and framework edge cases  
-  Signals: issues, comments
+  Signals: 2 issues, 1 comment
 - [`eze-is/web-access`](https://github.com/eze-is/web-access)  
   browser automation, local CDP workflows, agent tooling  
-  Signals: PRs, comments
+  Signals: 1 PR, 2 comments
 - [`SillyTavern/SillyTavern`](https://github.com/SillyTavern/SillyTavern)  
   AI roleplay interfaces and extensible chat UX  
-  Signals: PRs, comments
+  Signals: 1 PR, 1 comment
 - [`jaredpalmer/formik`](https://github.com/jaredpalmer/formik)  
   React form behavior and long-lived library ergonomics  
-  Signals: PRs, comments
+  Signals: 1 PR, 1 comment
 - [`smplrspace/react-fps-stats`](https://github.com/smplrspace/react-fps-stats)  
   small developer tools for runtime visibility  
-  Signals: PRs
+  Signals: 1 PR
 <!-- OSS_FOOTPRINTS_END -->

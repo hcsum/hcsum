@@ -145,15 +145,20 @@ function interestFor(repo) {
 
 function signalSummary(counts) {
   const labels = new Map([
-    ["PR", "PRs"],
-    ["Issue", "issues"],
-    ["Review", "reviews"],
-    ["Comment", "comments"],
+    ["PR", ["PR", "PRs"]],
+    ["Issue", ["issue", "issues"]],
+    ["Review", ["review", "reviews"]],
+    ["Comment", ["comment", "comments"]],
   ]);
 
   return ["PR", "Issue", "Review", "Comment"]
     .filter((kind) => counts.has(kind))
-    .map((kind) => labels.get(kind))
+    .map((kind) => {
+      const count = counts.get(kind);
+      const [singular, plural] = labels.get(kind);
+
+      return `${count} ${count === 1 ? singular : plural}`;
+    })
     .join(", ");
 }
 
