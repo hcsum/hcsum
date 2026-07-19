@@ -143,7 +143,19 @@ function interestFor(repo) {
   return "recently touched public work";
 }
 
-function signalSummary(counts) {
+function searchUrl(repo, kind) {
+  const qualifiers = {
+    PR: `repo:${repo} is:pr author:${username}`,
+    Issue: `repo:${repo} is:issue author:${username}`,
+    Review: `repo:${repo} is:pr reviewed-by:${username}`,
+    Comment: `repo:${repo} commenter:${username}`,
+  };
+
+  const query = `${qualifiers[kind]} archived:false`;
+  return `https://github.com/search?q=${encodeURIComponent(query)}&type=issues`;
+}
+
+function signalSummary(repo, counts) {
   const labels = new Map([
     ["PR", ["PR", "PRs"]],
     ["Issue", ["issue", "issues"]],
@@ -156,8 +168,9 @@ function signalSummary(counts) {
     .map((kind) => {
       const count = counts.get(kind);
       const [singular, plural] = labels.get(kind);
+      const label = `${count} ${count === 1 ? singular : plural}`;
 
-      return `${count} ${count === 1 ? singular : plural}`;
+      return `[${label}](${searchUrl(repo, kind)})`;
     })
     .join(", ");
 }
@@ -175,7 +188,7 @@ function render(repos) {
     lines.push(
       `- ${repoLink}  \n` +
         `  ${interestFor(repo)}  \n` +
-        `  Signals: ${signalSummary(repo.counts)}`,
+        `  Signals: ${signalSummary(repo.repo, repo.counts)}`,
     );
   }
 
