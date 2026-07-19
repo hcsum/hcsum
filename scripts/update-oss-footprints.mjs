@@ -29,21 +29,27 @@ const headers = {
   "X-GitHub-Api-Version": "2022-11-28",
 };
 
+const repoInterests = new Map([
+  ["anomalyco/opencode", "AI coding agents, terminal UX, plugin/runtime behavior"],
+  ["mem0ai/mem0", "agent memory, extraction quality, self-hosted infrastructure"],
+  ["grinev/opencode-telegram-bot", "chat-based coding workflows and permission UX"],
+  ["vendurehq/vendure", "commerce admin UX and framework edge cases"],
+  ["eze-is/web-access", "browser automation, local CDP workflows, agent tooling"],
+  ["SillyTavern/SillyTavern", "AI roleplay interfaces and extensible chat UX"],
+  ["jaredpalmer/formik", "React form behavior and long-lived library ergonomics"],
+  ["smplrspace/react-fps-stats", "small developer tools for runtime visibility"],
+]);
+
 function repoFromItem(item) {
   return item.repository_url.replace("https://api.github.com/repos/", "");
 }
 
-function formatDate(value) {
-  return new Intl.DateTimeFormat("en", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-    timeZone: "UTC",
-  }).format(new Date(value));
-}
-
-function escapeTable(value) {
-  return String(value).replaceAll("|", "\\|").replaceAll("\n", " ");
+function cleanDescription(value) {
+  return String(value || "")
+    .replaceAll("\n", " ")
+    .replace(/\s+/g, " ")
+    .replace(/[.。]\s*$/, "")
+    .trim();
 }
 
 async function searchIssues(query) {
@@ -75,24 +81,25 @@ async function getPublicRepos(items) {
 
     const response = await fetch(item.repository_url, { headers });
     if (!response.ok) {
-      repos.set(repo, false);
+      repos.set(repo, null);
       continue;
     }
 
     const data = await response.json();
-    repos.set(repo, data.private === false && data.archived === false);
+    repos.set(repo, data.private === false && data.archived === false ? data : null);
   }
 
   return repos;
 }
 
-function aggregate(items, publicRepos) {
+function aggregate(items, repoMetadata) {
   const repos = new Map();
   const seen = new Set();
 
   for (const item of items) {
     const repo = repoFromItem(item);
-    if (!publicRepos.get(repo)) continue;
+    const metadata = repoMetadata.get(repo);
+    if (!metadata) continue;
 
     const key = `${repo}:${item.html_url}:${item.footprintKind}`;
     if (seen.has(key)) continue;
@@ -104,6 +111,7 @@ function aggregate(items, publicRepos) {
       updatedAt: item.updated_at,
       counts: new Map(),
       latest: item,
+      metadata,
     };
 
     current.score += item.footprintScore;
@@ -122,29 +130,32 @@ function aggregate(items, publicRepos) {
     .slice(0, 8);
 }
 
-function countSummary(counts) {
-  const order = ["PR", "Issue", "Review", "Comment"];
-  return order
-    .filter((kind) => counts.has(kind))
-    .map((kind) => `${counts.get(kind)} ${kind}${counts.get(kind) > 1 ? "s" : ""}`)
-    .join(", ");
+function interestFor(repo) {
+  const curated = repoInterests.get(repo.repo);
+  if (curated) return curated;
+
+  const description = cleanDescription(repo.metadata.description);
+  if (description) return description;
+
+  const topics = repo.metadata.topics || [];
+  if (topics.length > 0) return topics.slice(0, 4).join(", ");
+
+  return "recently touched public work";
 }
 
 function render(repos) {
   if (repos.length === 0) {
-    return "_No recent public GitHub activity found._";
+    return "_No recent public repo signals found._";
   }
 
   const lines = [];
 
   for (const repo of repos) {
-    const latest = repo.latest;
     const repoLink = `[\`${repo.repo}\`](https://github.com/${repo.repo})`;
-    const latestLink = `[${escapeTable(latest.title)}](${latest.html_url})`;
 
     lines.push(
-      `- ${repoLink} — ${countSummary(repo.counts)}  \n` +
-        `  Latest: ${latest.footprintKind} ${latestLink} (${formatDate(latest.updated_at)})`,
+      `- ${repoLink}  \n` +
+        `  ${interestFor(repo)}`,
     );
   }
 
