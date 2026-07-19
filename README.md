@@ -20,8 +20,7 @@ Say hi here: hi@hcxu.cc
 
 ## Things I am paying attention to
 
-A small, automatically refreshed map of public repos where I have recently
-left PRs, issues, reviews, or comments.
+An automatically refreshed map of public repos where I have recently interacted with.
 
 <!-- OSS_FOOTPRINTS_START -->
 - [`anomalyco/opencode`](https://github.com/anomalyco/opencode)  
