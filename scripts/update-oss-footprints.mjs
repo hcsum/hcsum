@@ -143,6 +143,20 @@ function interestFor(repo) {
   return "recently touched public work";
 }
 
+function signalSummary(counts) {
+  const labels = new Map([
+    ["PR", "PRs"],
+    ["Issue", "issues"],
+    ["Review", "reviews"],
+    ["Comment", "comments"],
+  ]);
+
+  return ["PR", "Issue", "Review", "Comment"]
+    .filter((kind) => counts.has(kind))
+    .map((kind) => labels.get(kind))
+    .join(", ");
+}
+
 function render(repos) {
   if (repos.length === 0) {
     return "_No recent public repo signals found._";
@@ -155,7 +169,8 @@ function render(repos) {
 
     lines.push(
       `- ${repoLink}  \n` +
-        `  ${interestFor(repo)}`,
+        `  ${interestFor(repo)}  \n` +
+        `  Signals: ${signalSummary(repo.counts)}`,
     );
   }
 
