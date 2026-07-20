@@ -31,7 +31,7 @@ An automatically refreshed map of public repos where I have recently interacted 
   Signals: [1 PR](https://github.com/search?q=repo%3Amem0ai%2Fmem0%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [2 issues](https://github.com/search?q=repo%3Amem0ai%2Fmem0%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 comment](https://github.com/search?q=repo%3Amem0ai%2Fmem0%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
 - [`grinev/opencode-telegram-bot`](https://github.com/grinev/opencode-telegram-bot)  
   chat-based coding workflows and permission UX  
-  Signals: [1 PR](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 issue](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues)
+  Signals: [1 PR](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 issue](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 comment](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
 - [`vendurehq/vendure`](https://github.com/vendurehq/vendure)  
   commerce admin UX and framework edge cases  
   Signals: [2 issues](https://github.com/search?q=repo%3Avendurehq%2Fvendure%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 comment](https://github.com/search?q=repo%3Avendurehq%2Fvendure%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
@@ -44,7 +44,7 @@ An automatically refreshed map of public repos where I have recently interacted 
 - [`jaredpalmer/formik`](https://github.com/jaredpalmer/formik)  
   React form behavior and long-lived library ergonomics  
   Signals: [1 PR](https://github.com/search?q=repo%3Ajaredpalmer%2Fformik%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 comment](https://github.com/search?q=repo%3Ajaredpalmer%2Fformik%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
-- [`smplrspace/react-fps-stats`](https://github.com/smplrspace/react-fps-stats)  
-  small developer tools for runtime visibility  
-  Signals: [1 PR](https://github.com/search?q=repo%3Asmplrspace%2Freact-fps-stats%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues)
+- [`hcsum/hcsum`](https://github.com/hcsum/hcsum)  
+  recently touched public work  
+  Signals: [1 PR](https://github.com/search?q=repo%3Ahcsum%2Fhcsum%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues)
 <!-- OSS_FOOTPRINTS_END -->
