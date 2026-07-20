@@ -14,13 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Here to meet some new friends and check out some cool projects.
+Self-taught coder, working professionally since 2018.
 
-Say hi here: hi@hcxu.cc
+Here to collaborate and check out some cool projects.
+
+Say hi: hi@hcxu.cc
 
 ## Things I am paying attention to lately
-
-Public repos where I have recently interacted with.
 
 <!-- OSS_FOOTPRINTS_START -->
 <img src="assets/oss-footprints.svg" alt="OSS footprint category breakdown" width="720">
