@@ -20,8 +20,7 @@ Say hi here: hi@hcxu.cc
 
 ## Things I am paying attention to lately
 
-Public repos where I<br>
-have recently interacted with.
+Public repos where I have recently interacted with.
 
 <!-- OSS_FOOTPRINTS_START -->
 <img src="assets/oss-footprints.svg" alt="OSS footprint category breakdown" width="720">
