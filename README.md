@@ -28,12 +28,12 @@ Say hi: hi@hcxu.cc
 - [`anomalyco/opencode`](https://github.com/anomalyco/opencode)<br>
   AI coding agents, terminal UX, plugin/runtime behavior<br>
   Interactions: [1 PR](https://github.com/search?q=repo%3Aanomalyco%2Fopencode%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [4 issues](https://github.com/search?q=repo%3Aanomalyco%2Fopencode%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [4 comments](https://github.com/search?q=repo%3Aanomalyco%2Fopencode%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
+- [`grinev/opencode-telegram-bot`](https://github.com/grinev/opencode-telegram-bot)<br>
+  chat-based coding workflows and permission UX<br>
+  Interactions: [2 PRs](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 issue](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [2 comments](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
 - [`mem0ai/mem0`](https://github.com/mem0ai/mem0)<br>
   agent memory, extraction quality, self-hosted infrastructure<br>
   Interactions: [1 PR](https://github.com/search?q=repo%3Amem0ai%2Fmem0%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [2 issues](https://github.com/search?q=repo%3Amem0ai%2Fmem0%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 comment](https://github.com/search?q=repo%3Amem0ai%2Fmem0%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
-- [`grinev/opencode-telegram-bot`](https://github.com/grinev/opencode-telegram-bot)<br>
-  chat-based coding workflows and permission UX<br>
-  Interactions: [1 PR](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 issue](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 comment](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
 - [`vendurehq/vendure`](https://github.com/vendurehq/vendure)<br>
   commerce admin UX and framework edge cases<br>
   Interactions: [2 issues](https://github.com/search?q=repo%3Avendurehq%2Fvendure%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 comment](https://github.com/search?q=repo%3Avendurehq%2Fvendure%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
