@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Self-taught coder, working professionally since 2018.
+Full-stack engineer, shipping software since 2018.
 
 Here to collaborate and check out some cool projects.
 
