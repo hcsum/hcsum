@@ -6,25 +6,25 @@
   <text x="34" y="38" font-size="18" font-weight="700" fill="#111827">OSS Footprint</text>
   <g transform="translate(34 60)">
     <circle cx="84" cy="84" r="58" fill="none" stroke="#f3f4f6" stroke-width="28" />
-    <circle cx="84" cy="84" r="58" fill="none" stroke="#2563eb" stroke-width="28" stroke-dasharray="314.16 50.27" stroke-dashoffset="25.00" stroke-linecap="butt" transform="rotate(-90 84 84)" />
-    <circle cx="84" cy="84" r="58" fill="none" stroke="#16a34a" stroke-width="28" stroke-dasharray="37.70 326.73" stroke-dashoffset="-289.16" stroke-linecap="butt" transform="rotate(-90 84 84)" />
-    <circle cx="84" cy="84" r="58" fill="none" stroke="#9333ea" stroke-width="28" stroke-dasharray="12.57 351.86" stroke-dashoffset="-326.86" stroke-linecap="butt" transform="rotate(-90 84 84)" />
+    <circle cx="84" cy="84" r="58" fill="none" stroke="#2563eb" stroke-width="28" stroke-dasharray="315.83 48.59" stroke-dashoffset="25.00" stroke-linecap="butt" transform="rotate(-90 84 84)" />
+    <circle cx="84" cy="84" r="58" fill="none" stroke="#16a34a" stroke-width="28" stroke-dasharray="36.44 327.98" stroke-dashoffset="-290.83" stroke-linecap="butt" transform="rotate(-90 84 84)" />
+    <circle cx="84" cy="84" r="58" fill="none" stroke="#9333ea" stroke-width="28" stroke-dasharray="12.15 352.28" stroke-dashoffset="-327.28" stroke-linecap="butt" transform="rotate(-90 84 84)" />
     <circle cx="84" cy="84" r="42" fill="#ffffff" />
-    <text x="84" y="80" text-anchor="middle" font-size="24" font-weight="800" fill="#111827">29</text>
+    <text x="84" y="80" text-anchor="middle" font-size="24" font-weight="800" fill="#111827">30</text>
     <text x="84" y="100" text-anchor="middle" font-size="12" fill="#6b7280">interactions</text>
   </g>
   <g>
 <circle cx="244" cy="87" r="6" fill="#2563eb" />
 <text x="260" y="92" font-size="15" font-weight="600" fill="#111827">AI harness</text>
-<text x="548" y="92" font-size="15" font-weight="700" text-anchor="end" fill="#111827">86%</text>
-<text x="260" y="110" font-size="12" fill="#6b7280">25 interactions across 6 repos</text>
+<text x="548" y="92" font-size="15" font-weight="700" text-anchor="end" fill="#111827">87%</text>
+<text x="260" y="110" font-size="12" fill="#6b7280">26 interactions across 6 repos</text>
 <circle cx="244" cy="131" r="6" fill="#16a34a" />
 <text x="260" y="136" font-size="15" font-weight="600" fill="#111827">Commerce platforms</text>
 <text x="548" y="136" font-size="15" font-weight="700" text-anchor="end" fill="#111827">10%</text>
 <text x="260" y="154" font-size="12" fill="#6b7280">3 interactions across 1 repo</text>
 <circle cx="244" cy="175" r="6" fill="#9333ea" />
 <text x="260" y="180" font-size="15" font-weight="600" fill="#111827">Developer tools</text>
-<text x="548" y="180" font-size="15" font-weight="700" text-anchor="end" fill="#111827">4%</text>
+<text x="548" y="180" font-size="15" font-weight="700" text-anchor="end" fill="#111827">3%</text>
 <text x="260" y="198" font-size="12" fill="#6b7280">1 interactions across 1 repo</text>
   </g>
 </svg>
