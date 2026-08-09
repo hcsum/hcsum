@@ -46,7 +46,4 @@ Say hi: hi@hcxu.cc
 - [`nanocoai/nanoclaw`](https://github.com/nanocoai/nanoclaw)<br>
   A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK<br>
   Interactions: [1 issue](https://github.com/search?q=repo%3Ananocoai%2Fnanoclaw%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues)
-- [`smplrspace/react-fps-stats`](https://github.com/smplrspace/react-fps-stats)<br>
-  small developer tools for runtime visibility<br>
-  Interactions: [1 PR](https://github.com/search?q=repo%3Asmplrspace%2Freact-fps-stats%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues)
 <!-- OSS_FOOTPRINTS_END -->
