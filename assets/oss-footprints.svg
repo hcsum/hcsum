@@ -6,20 +6,20 @@
   <text x="34" y="38" font-size="18" font-weight="700" fill="#111827">OSS Footprint</text>
   <g transform="translate(34 60)">
     <circle cx="84" cy="84" r="58" fill="none" stroke="#f3f4f6" stroke-width="28" />
-    <circle cx="84" cy="84" r="58" fill="none" stroke="#2563eb" stroke-width="28" stroke-dasharray="326.73 37.70" stroke-dashoffset="25.00" stroke-linecap="butt" transform="rotate(-90 84 84)" />
-    <circle cx="84" cy="84" r="58" fill="none" stroke="#16a34a" stroke-width="28" stroke-dasharray="37.70 326.73" stroke-dashoffset="-301.73" stroke-linecap="butt" transform="rotate(-90 84 84)" />
+    <circle cx="84" cy="84" r="58" fill="none" stroke="#2563eb" stroke-width="28" stroke-dasharray="323.93 40.49" stroke-dashoffset="25.00" stroke-linecap="butt" transform="rotate(-90 84 84)" />
+    <circle cx="84" cy="84" r="58" fill="none" stroke="#16a34a" stroke-width="28" stroke-dasharray="40.49 323.93" stroke-dashoffset="-298.93" stroke-linecap="butt" transform="rotate(-90 84 84)" />
     <circle cx="84" cy="84" r="42" fill="#ffffff" />
-    <text x="84" y="80" text-anchor="middle" font-size="24" font-weight="800" fill="#111827">29</text>
+    <text x="84" y="80" text-anchor="middle" font-size="24" font-weight="800" fill="#111827">27</text>
     <text x="84" y="100" text-anchor="middle" font-size="12" fill="#6b7280">interactions</text>
   </g>
   <g>
 <circle cx="244" cy="87" r="6" fill="#2563eb" />
 <text x="260" y="92" font-size="15" font-weight="600" fill="#111827">AI harness</text>
-<text x="548" y="92" font-size="15" font-weight="700" text-anchor="end" fill="#111827">90%</text>
-<text x="260" y="110" font-size="12" fill="#6b7280">26 interactions across 6 repos</text>
+<text x="548" y="92" font-size="15" font-weight="700" text-anchor="end" fill="#111827">89%</text>
+<text x="260" y="110" font-size="12" fill="#6b7280">24 interactions across 5 repos</text>
 <circle cx="244" cy="131" r="6" fill="#16a34a" />
 <text x="260" y="136" font-size="15" font-weight="600" fill="#111827">Commerce platforms</text>
-<text x="548" y="136" font-size="15" font-weight="700" text-anchor="end" fill="#111827">10%</text>
+<text x="548" y="136" font-size="15" font-weight="700" text-anchor="end" fill="#111827">11%</text>
 <text x="260" y="154" font-size="12" fill="#6b7280">3 interactions across 1 repo</text>
   </g>
 </svg>

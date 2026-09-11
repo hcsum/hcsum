@@ -40,9 +40,6 @@ Say hi: hi@hcxu.cc
 - [`eze-is/web-access`](https://github.com/eze-is/web-access)<br>
   browser automation, local CDP workflows, agent tooling<br>
   Interactions: [1 PR](https://github.com/search?q=repo%3Aeze-is%2Fweb-access%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [2 comments](https://github.com/search?q=repo%3Aeze-is%2Fweb-access%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
-- [`SillyTavern/SillyTavern`](https://github.com/SillyTavern/SillyTavern)<br>
-  AI roleplay interfaces and extensible chat UX<br>
-  Interactions: [1 PR](https://github.com/search?q=repo%3ASillyTavern%2FSillyTavern%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 comment](https://github.com/search?q=repo%3ASillyTavern%2FSillyTavern%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
 - [`nanocoai/nanoclaw`](https://github.com/nanocoai/nanoclaw)<br>
   A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK<br>
   Interactions: [1 issue](https://github.com/search?q=repo%3Ananocoai%2Fnanoclaw%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues)
