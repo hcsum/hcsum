@@ -25,6 +25,9 @@ Say hi: hi@hcxu.cc
 <!-- OSS_FOOTPRINTS_START -->
 <img src="assets/oss-footprints.svg" alt="OSS footprint category breakdown" width="720">
 
+- [`hcsum/acs-chat-inbox`](https://github.com/hcsum/acs-chat-inbox)<br>
+  React components for a chat inbox on Azure Communication Services: a thread list with unread badges and message previews, beside the ACS ChatComposite chat pane<br>
+  Interactions: [10 comments](https://github.com/search?q=repo%3Ahcsum%2Facs-chat-inbox%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
 - [`anomalyco/opencode`](https://github.com/anomalyco/opencode)<br>
   AI coding agents, terminal UX, plugin/runtime behavior<br>
   Interactions: [1 PR](https://github.com/search?q=repo%3Aanomalyco%2Fopencode%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [4 issues](https://github.com/search?q=repo%3Aanomalyco%2Fopencode%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [4 comments](https://github.com/search?q=repo%3Aanomalyco%2Fopencode%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
