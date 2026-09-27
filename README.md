@@ -42,7 +42,7 @@ Say hi: hi@hcxu.cc
   Interactions: [2 issues](https://github.com/search?q=repo%3Avendurehq%2Fvendure%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 comment](https://github.com/search?q=repo%3Avendurehq%2Fvendure%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
 - [`eze-is/web-access`](https://github.com/eze-is/web-access)<br>
   browser automation, local CDP workflows, agent tooling<br>
-  Interactions: [1 PR](https://github.com/search?q=repo%3Aeze-is%2Fweb-access%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [2 comments](https://github.com/search?q=repo%3Aeze-is%2Fweb-access%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
+  Interactions: [1 PR](https://github.com/search?q=repo%3Aeze-is%2Fweb-access%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 comment](https://github.com/search?q=repo%3Aeze-is%2Fweb-access%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
 - [`CaffeineOddity/MarkdownPreviewEnhanced`](https://github.com/CaffeineOddity/MarkdownPreviewEnhanced)<br>
   Live Markdown preview in the browser for Sublime Text 4 — SSE updates, KaTeX, Mermaid, ECharts, and presentation mode<br>
   Interactions: [1 PR](https://github.com/search?q=repo%3ACaffeineOddity%2FMarkdownPreviewEnhanced%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues)
