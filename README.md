@@ -46,7 +46,4 @@ Say hi: hi@hcxu.cc
 - [`CaffeineOddity/MarkdownPreviewEnhanced`](https://github.com/CaffeineOddity/MarkdownPreviewEnhanced)<br>
   Live Markdown preview in the browser for Sublime Text 4 — SSE updates, KaTeX, Mermaid, ECharts, and presentation mode<br>
   Interactions: [1 PR](https://github.com/search?q=repo%3ACaffeineOddity%2FMarkdownPreviewEnhanced%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues)
-- [`nanocoai/nanoclaw`](https://github.com/nanocoai/nanoclaw)<br>
-  A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK<br>
-  Interactions: [1 issue](https://github.com/search?q=repo%3Ananocoai%2Fnanoclaw%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues)
 <!-- OSS_FOOTPRINTS_END -->
