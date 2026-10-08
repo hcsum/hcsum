@@ -18,6 +18,8 @@ Full-stack engineer, shipping software since 2018.
 
 Here to collaborate and check out some cool projects.
 
+Looking for a new job!
+
 Say hi: hi@hcxu.cc
 
 ## Things I am paying attention to lately
