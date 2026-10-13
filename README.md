@@ -36,6 +36,9 @@ Say hi: hi@hcxu.cc
 - [`grinev/opencode-telegram-bot`](https://github.com/grinev/opencode-telegram-bot)<br>
   chat-based coding workflows and permission UX<br>
   Interactions: [5 PRs](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 issue](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [2 comments](https://github.com/search?q=repo%3Agrinev%2Fopencode-telegram-bot%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
+- [`hcsum/ai-sdk-computer-use`](https://github.com/hcsum/ai-sdk-computer-use)<br>
+  Computer-use AI agent dashboard — CambioML frontend coding challenge<br>
+  Interactions: [7 PRs](https://github.com/search?q=repo%3Ahcsum%2Fai-sdk-computer-use%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues)
 - [`mem0ai/mem0`](https://github.com/mem0ai/mem0)<br>
   agent memory, extraction quality, self-hosted infrastructure<br>
   Interactions: [1 PR](https://github.com/search?q=repo%3Amem0ai%2Fmem0%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues), [2 issues](https://github.com/search?q=repo%3Amem0ai%2Fmem0%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 comment](https://github.com/search?q=repo%3Amem0ai%2Fmem0%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
@@ -48,7 +51,4 @@ Say hi: hi@hcxu.cc
 - [`nanocoai/nanoclaw`](https://github.com/nanocoai/nanoclaw)<br>
   A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK<br>
   Interactions: [1 issue](https://github.com/search?q=repo%3Ananocoai%2Fnanoclaw%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues)
-- [`CaffeineOddity/MarkdownPreviewEnhanced`](https://github.com/CaffeineOddity/MarkdownPreviewEnhanced)<br>
-  Live Markdown preview in the browser for Sublime Text 4 — SSE updates, KaTeX, Mermaid, ECharts, and presentation mode<br>
-  Interactions: [1 PR](https://github.com/search?q=repo%3ACaffeineOddity%2FMarkdownPreviewEnhanced%20is%3Apr%20author%3Ahcsum%20archived%3Afalse&type=issues)
 <!-- OSS_FOOTPRINTS_END -->
