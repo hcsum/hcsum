@@ -46,7 +46,7 @@ Say hi: hi@hcxu.cc
   commerce admin UX and framework edge cases<br>
   Interactions: [2 issues](https://github.com/search?q=repo%3Avendurehq%2Fvendure%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues), [1 comment](https://github.com/search?q=repo%3Avendurehq%2Fvendure%20commenter%3Ahcsum%20archived%3Afalse&type=issues)
 - [`nanocoai/nanoclaw`](https://github.com/nanocoai/nanoclaw)<br>
-  A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK<br>
+  Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own container on your machine, on the harness you choose (Claude Code, Codex, Cursor, OpenCode). Talk to it from Slack, WhatsApp, Telegram, Discord and more<br>
   Interactions: [1 issue](https://github.com/search?q=repo%3Ananocoai%2Fnanoclaw%20is%3Aissue%20author%3Ahcsum%20archived%3Afalse&type=issues)
 - [`CaffeineOddity/MarkdownPreviewEnhanced`](https://github.com/CaffeineOddity/MarkdownPreviewEnhanced)<br>
   Live Markdown preview in the browser for Sublime Text 4 — SSE updates, KaTeX, Mermaid, ECharts, and presentation mode<br>
